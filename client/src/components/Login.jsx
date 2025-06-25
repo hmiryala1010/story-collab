@@ -23,11 +23,11 @@ function Login() {
       <Heading mb={4} size="md">Login</Heading>
       <VStack spacing={3}>
         <FormControl>
-          <FormLabel>Email</FormLabel>
+          <FormLabel>Enter your Email</FormLabel>
           <Input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
         </FormControl>
         <FormControl>
-          <FormLabel>Password</FormLabel>
+          <FormLabel>Enter your Password</FormLabel>
           <Input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
         </FormControl>
         <Button colorScheme="teal" onClick={handleLogin}>Login</Button>
